@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Shakirah.Cherry</id>
+    <version>1.0.0</version>
+    <authors>Shakirah Hadijjah</authors>
+    <readme>README.md</readme>
+    <description>C# library for Calculating health metrics and give food suggestions basing on metrics and health goals</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="AForge" version="2.2.5" exclude="Build,Analyzers" />
+        <dependency id="AForge.Video.DirectShow" version="2.2.5" exclude="Build,Analyzers" />
+        <dependency id="CsvHelper" version="30.0.1" exclude="Build,Analyzers" />
+        <dependency id="Emgu.CV" version="4.8.1.5350" exclude="Build,Analyzers" />
+        <dependency id="MathNet.Numerics" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="NUnit" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="NUnit3TestAdapter" version="4.5.0" exclude="Build,Analyzers" />
+        <dependency id="OpenCvSharp4" version="4.8.0.20230708" exclude="Build,Analyzers" />
+        <dependency id="OpenCvSharp4.runtime.win" version="4.8.0.20230708" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="8.0.0-rc.2.23479.14" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\User\source\repos\Cherry\Cherry\bin\Release\net6.0\Cherry.dll" target="lib\net6.0\Cherry.dll" />
+    <file src="C:\Users\User\Desktop\sem1\Graphics\Canva\README.md" target="\README.md" />
+  </files>
+</package>
